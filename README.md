@@ -2,7 +2,7 @@
 Translations for ModernWallet (SnowGem)
 
 ##### We need your help.
-##### If you do want to contribute with a translation for MySnowGemWallet please do the following.
+##### If you do want to contribute with a translation for ModernWallet please do the following.
 ##### Clone this repo.
 ##### Copy the file english.xml.
 ##### Rename the file [your language].xml (example brasilian.xml).
