@@ -31,7 +31,7 @@
             "transactionsLink": "交易",
             "masternodesLink": "主节点",
             "masternodesListLink": "主节点菜单",
-            "masternodesSetupLink": "主节点设置" 
+            "masternodesSetupLink": "主节点设置"
         },
         "sectionTwo": {
             "sectionTitle": "应用与资源",
@@ -42,7 +42,7 @@
         "footer": {
             "settingsLink": "设置",
             "aboutLink": "关于",
-            "closeLink": "关闭" 
+            "closeLink": "关闭"
         },
         "alternative": {
             "dashboardLink": "控制面板",
@@ -119,7 +119,7 @@
       },
       "operations": {
         "keysImportTitle": "注意！",
-        "keysImportMsg": "导入地址需要很长时间，您的钱包信息将不会在此进度完成之前更新。\过程可能需要超过10分钟",
+        "keysImportMsg": "导入地址需要很长时间，您的钱包信息将不会在此进度完成之前更新。\n过程可能需要超过10分钟",
         "readOnlyErrTitle": "警报",
         "readOnlyErrMsg": "无法选择只读地址",
         "emptyNameErrMsg": "名称不能为空",
@@ -341,7 +341,7 @@
         "backingUpWallet": "正在备份钱包，请等待直到它重新加载",
         "restartWallet3": "重启钱包以重新扫描钱包",
         "restartWallet4": "重启钱包以重建索引钱包",
-        "peersList": "Peers列表" 
+        "peersList": "Peers列表"
       }
     },
     "splashscreen": {
@@ -394,4 +394,3 @@
       "helpButton": "帮助"
     }
 }
-
