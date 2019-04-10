@@ -24,14 +24,14 @@
     "sidebar": {
         "sectionOne": {
             "sectionTitle": "General",
-            "dashboardLink": "Tablou de bord",
-            "sendCoinsLink": "Trimite monede",
-            "shieldCoinsLink": "Protejează modede",
+            "dashboardLink": "Tablou de Bord",
+            "sendCoinsLink": "Trimite Monede",
+            "shieldCoinsLink": "Protejează Modede",
             "addressesLink": "Adrese",
             "transactionsLink": "Tranzacții",
             "masternodesLink": "Masternoduri",
-            "masternodesListLink": "Listă masternoduri",
-            "masternodesSetupLink": "Setare masternoduri"
+            "masternodesListLink": "Listă Masternoduri",
+            "masternodesSetupLink": "Setare Masternoduri"
         },
         "sectionTwo": {
             "sectionTitle": "Aplicații și Resurse",
