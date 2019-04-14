@@ -2,8 +2,8 @@
     "language": "Español",
     "menubar": {
       "titleBtn": "Reiniciando la Cartera",
-      "text1": "Quieres seleccionar?",
-      "text2": "Favor de esperar a que la cartera haya recargado."
+      "text1": "Quieres seleccionar",
+      "text2": "Favor de esperar a que la cartera se haya recargado."
     },
     "crafted": {
       "craftedWith": "Elaborado con",
@@ -12,7 +12,7 @@
     },
     "navbar": {
       "logoTitle": "Cartera SnowGem",
-      "menuIconTitle": "Alternar Menú",
+      "menuIconTitle": "Alternar el Menú",
       "reloadIconTitle": "Recargar Cartera",
       "aboutIconTitle": "Acerca de",
       "notificationsIconTitle": "Notificationes",
@@ -59,7 +59,7 @@
         "unconfirmed": "Sin confirmar",
         "transparent": "Transparente",
         "private": "Privado",
-        "locked": "Bloquedo",
+        "locked": "Bloqueado",
         "txsSummary": "Resumen de Transacciones",
         "incoming": "Entrante",
         "outgoing": "Saliente"
@@ -156,11 +156,11 @@
         "expiredStatus": "EXPIRADO"
       },
       "operations": {
-        "aliasName": "Nombre de Alias",
+        "aliasName": "Nombre del Alias",
         "vpsIp": "VPS IP",
         "privateKey": "Llave Privada",
-        "txId": "Transacción ID",
-        "index": "Indice",
+        "txId": "ID de la Transacción",
+        "index": "Índice",
         "duplicateAliasName": "Nomber de Alias duplicado",
         "duplicatePrivKey": "Llave privada duplicada",
         "duplicateTxHash": "El hash de la transacción esta duplicada",
@@ -183,7 +183,7 @@
         "ipEmpty": "La dirección del IP no puede estar vacío",
         "privKeyEmpty": "La llave Privada no puede estar vacía",
         "txEmpty": "La transacción no puede estar vacía",
-        "txIndexEmpty": "El Indice de la transacción no puede estar vacía",
+        "txIndexEmpty": "El Índice de la transacción no puede estar vacía",
         "noOutput": "No tienes ningun nuevo resultado"
       }
     },
@@ -233,7 +233,7 @@
       "table": {
         "direction": "Dirección",
         "date": "Fecha",
-        "address": "dirección",
+        "address": "Dirección",
         "amount": "Cantidad",
         "validated": "Validado",
         "details": "Detalles",
@@ -298,10 +298,10 @@
       "currency": "Divisa",
       "dateType": "Tipo de fecha",
       "txTime": "Tiempo de la transacción",
-      "backupWlt": "Respaldo de Cartera",
+      "backupWlt": "Respaldo de la Cartera",
       "restoreWlt": "Restauración de la Cartera",
-      "rescanWlt": "Rescaneo de Cartera",
-      "reindexWlt": "Reindexación de Cartera",
+      "rescanWlt": "Rescaneo de la Cartera",
+      "reindexWlt": "Reindexación de la Cartera",
       "autoStartBtn": "Inicio automático",
       "autoStartTip": "Inicio automático de la Cartera con el sistema",
       "autoUpdateDaemonBtn": "Actualización automática del Daemon",
@@ -310,7 +310,7 @@
       "enableLogTip": "Escrbir el registro al archivo",
       "txsChartBtn": "Tabla de Transacciones",
       "txsChartTip": "Mostrar/Ocultar Tabla de Transacciones",
-      "hideOnMinimizeBtn": "Ocultar En Minimizar",
+      "hideOnMinimizeBtn": "Ocultar en Minimizar",
       "hideOnMinimizeTip": "Ocultar cartera cuando se minimiza",
       "autoShieldBtn": "Auto Blindaje",
       "autoShieldTip": "Auto blindaje de monedas generadas",
