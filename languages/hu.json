@@ -14,7 +14,7 @@
       "logoTitle": "SnowGem pénztárca",
       "menuIconTitle": "Menü váltás",
       "reloadIconTitle": "Pénztárca újratöltés",
-      "aboutIconTitle": "Erről",
+      "aboutIconTitle": "Infó",
       "notificationsIconTitle": "Értesítések",
       "connectionsIconTitle": "Kapcsolatok",
       "notificationsHeading": "ÉRTESÍTÉSEK",
@@ -37,11 +37,11 @@
             "sectionTitle": "Alkalmazások és források",
             "appsLink": "Alkalmazások",
             "exchangesLink": "Adás vétel",
-            "coinsListLink": "Digitális pénz lista"
+            "coinsListLink": "Digitális pénzek listája"
         },
         "footer": {
             "settingsLink": "Beállítások",
-            "aboutLink": "Erről",
+            "aboutLink": "Infó",
             "closeLink": "Bezár"
         },
         "alternative": {
@@ -50,8 +50,8 @@
         }
     },
     "dashboardView": {
-      "infoMsg1": "Itt van egy összefoglaló",
-      "infoMsg2": "Pénztárca",
+      "infoMsg1": "Itt van egy összefoglaló a",
+      "infoMsg2": "pénztárcáról",
       "importantInfo": "Fontos információk!",
       "table": {
         "total": "Összes",
@@ -280,7 +280,7 @@
       "loadingBlockIdx": "Block index betöltése",
       "verifyingBlocks": "Blockok hitelesítése",
       "loadingWalletDaemon": "Pénztáca betöltése",
-      "rescanning": "Újrascennelés",
+      "rescanning": "Újraszkennelés",
       "loadingAddresses": "Címek betöltése",
       "rewindingBlocks": "Blockok visszaforgatása, ha szükséges"
     },
@@ -290,17 +290,17 @@
       "setPeersBtn": "Peerek beállítása",
       "debugBtn": "Debug",
       "addBtn": "Hozzáad",
-      "daemonLocation": "Daemon elhelyezkedése",
-      "dataLocation": "Adatok elhelyezkedése",
+      "daemonLocation": "Daemon helye",
+      "dataLocation": "Adatok helye",
       "background": "Háttér",
       "shieldThreshold": "Shield Threshold",
       "to": "oda",
       "currency": "Pénznem",
       "dateType": "Adat típusa",
       "txTime": "Tranzakciók ideje",
-      "backupWlt": "Pénztárca biztonsági másolat készítése",
+      "backupWlt": "Pénztárca biztonsági másolatának készítése",
       "restoreWlt": "Pénztárca helyreállítása",
-      "rescanWlt": "Pénztárca újra scennelése",
+      "rescanWlt": "Pénztárca újra szkennelése",
       "reindexWlt": "Pénztárca reindexelése",
       "autoStartBtn": "Automatikus indítás",
       "autoStartTip": "Pénztárca automatikus indulása a rendszerrel",
@@ -310,10 +310,10 @@
       "enableLogTip": "írja be a naplófájlt",
       "txsChartBtn": "Tranzakciós táblázat",
       "txsChartTip": "Tranzakciós táblázat erejtése/mutatása",
-      "hideOnMinimizeBtn": "Tálcára",
-      "hideOnMinimizeTip": "Pénztárca rejtett ikonok közé tétele",
+      "hideOnMinimizeBtn": "Kicsinyít és elrejt",
+      "hideOnMinimizeTip": "Pénztárca rejtett ikonok közé helyezése",
       "autoShieldBtn": "Automatikus bebiztosítás",
-      "autoShieldTip": "Generált digitális pénzek automata bebiztosítása",
+      "autoShieldTip": "Generált digitális pénzek automatikus bebiztosítása",
       "showFiatBalanceBtn": "Fiat számla mutatása",
       "showFiatBalanceTip": "Fiat számla mutatása az áttekintő oldalon",
       "placeholder": {
@@ -340,7 +340,7 @@
         "walletBackup": "A pénztárca vissza lett állítva a következőre:",
         "cannotBackupWallet": "A pénztárcát nem lehet visszaállítani",
         "backingUpWallet": "Péntárca visszaállítása, kérem várjon amíg betölt",
-        "restartWallet3": "Pénztárca újraindítása az újrascenneléshez.",
+        "restartWallet3": "Pénztárca újraindítása az újraszkenneléshez.",
         "restartWallet4": "Pénztárca újraindítása a reindexeléshez",
         "peersList": "Peerek listája"
       }
@@ -365,7 +365,7 @@
     "endscreen": {
       "shutdown1": "ModernWallet kilép",
       "shutdown2": "Kérem ne állítsa le a számítógépet",
-      "shutdown3": "Amíg ez az ablak el nem tűnik."
+      "shutdown3": "amíg ez az ablak el nem tűnik."
     },
     "global": {
       "success": "Sikerült",
@@ -393,5 +393,3 @@
       "version": "verzió",
       "confirmationTitle": "Biztos benne?",
       "helpButton": "Segítség"
-    }
-}

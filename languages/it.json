@@ -1,9 +1,9 @@
 {
     "language": "Italian",
     "menubar": {
-      "titleBtn": "Ripartire il Portafoglio",
+      "titleBtn": "Ricaricare il Portafoglio",
       "text1": "Vuoi selezionare",
-      "text2": "Si prega di attendere che il portafoglio sia caricato."
+      "text2": "Si prega di attendere che il portafoglio sia ricaricato."
     },
     "crafted": {
       "craftedWith": "Realizzato con",
@@ -11,7 +11,7 @@
       "snowgemTeam": "SnowGem Team"
     },
     "navbar": {
-      "logoTitle": "SnowGem Portafoglio",
+      "logoTitle": "Portafoglio SnowGem",
       "menuIconTitle": "Commuta menu",
       "reloadIconTitle": "Ricarica il portafoglio",
       "aboutIconTitle": "Circa",
@@ -76,7 +76,7 @@
       }
     },
     "addressesView": {
-      "importKeysButton": "Importa chiavi(e) private (a)",
+      "importKeysButton": "Importa chiavi(e) private(a)",
       "importKeysButtonImporting": "Importazione",
       "getAdresses": "Ottieni chiave privata",
       "getMultipleAdresses": "Ottieni chiavi private",
@@ -159,7 +159,7 @@
         "aliasName": "Soprannome",
         "vpsIp": "VPS IP",
         "privateKey": "Chiave Privata",
-        "txId": "Transactione ID",
+        "txId": "Transazione ID",
         "index": "Indirizzo",
         "duplicateAliasName": "Duplica Soprannome",
         "duplicatePrivKey": "Duplica chiave privata",
@@ -172,11 +172,11 @@
       }
     },
     "mnsconfigView": {
-      "getPrivKey": "Genera Chiave Provata",
+      "getPrivKey": "Genera Chiave Privata",
       "generateMnData": "Genera Masternode Dati",
       "newMnData": "Nuovi Dati Masternode",
       "setupMn": "Impostazioni Masternode",
-      "MnKey": "Masternode Chiave",
+      "MnKey": "Chiave Masternode",
       "operations": {
         "aliasEmpty": "Soprannome non puo' essere lasciato vuoto",
         "aliasWhitespace": "Il Soprannome non deve contenere spazi vuoti",
@@ -192,11 +192,11 @@
       "recipientAddress": "Indirizzo Destinatario",
       "addressBook": "Rubrica",
       "storedAddress": "Indirizzi Memorizzati...",
-      "coinsAmount": "Quantità di monete",
+      "coinsAmount": "Quantità monete",
       "max": "Massimo",
-      "value": "Valore",
+      "value": "Unità",
       "messagePrivTx": "Messaggio (Solo transazione privata)",
-      "fee": "Tasse",
+      "fee": "Tasse transazione",
       "send": "Invia",
       "placeholder": {
         "recipientAddress": "Si prega di inserire indirizzo portafoglio destinatario",
@@ -231,22 +231,22 @@
       "txDetails": "Dettagli transazione",
       "viewOnExplorer": "Visualizza su explorer",
       "table": {
-        "direction": "Direzione",
+        "direction": "Tipologia",
         "date": "Data",
         "address": "Indirizzo",
         "amount": "Quantita'",
         "validated": "Validato",
         "details": "Dettagli",
-        "send": "inviare",
-        "receive": "ricevi",
-        "generate": "Generati",
+        "send": "Inviare",
+        "receive": "Ricevi",
+        "generate": "Generata",
         "immature": "Immaturo"
       }
     },
     "loadingView": {
       "loadingWallet": "Si prega di attendere , caricamento portaglio",
-      "selectLinuxVer": "Selezione Versione Linux",
-      "selectOneVer": "seleziona una versione",
+      "selectLinuxVer": "Seleziona Versione Linux",
+      "selectOneVer": "Seleziona una versione",
       "selectDaemon": "Selezione Daemon",
       "selectDir": "Seleziona Directory",
       "amazing": "A Coloro che aspettano arrivano cose incredibili",
@@ -265,13 +265,13 @@
       "daemonVerSelect": "Seleziona una versione dal menu a discesa",
       "checkDataFolder": "Controllo della cartella dei dati",
       "checkBlockchain": "Controllo della blockchain",
-      "autoDownloadBlockchain": "Vuoi scaricare blockchain automaticamente? (Questa azione accelera il processo di sincronizzazione)",
+      "autoDownloadBlockchain": "Vuoi scaricare la blockchain automaticamente? (Questa azione accelera il processo di sincronizzazione)",
       "startDeamon": "Avvio daemon",
       "finishing": "Fine",
       "serverErr": "Non posso reperire dati dal server",
       "downloadNewFiles": "Scaricamento nuovi files",
       "downloadQuestion": "Vuoi scaricare?",
-      "isAvailable": "è disponibile",
+      "isAvailable": "E' disponibile",
       "checking": "Controllo",
       "selectBinaryFiles": "Seleziona file binari",
       "starting": "Avvio",
@@ -319,7 +319,7 @@
       "placeholder": {
         "peersInOneLine": "Ogni peer in una riga",
         "botName": "Nome del Bot",
-        "apiKey": "chiave API"
+        "apiKey": "Chiave API"
       },
       "operations": {
         "datetimeType1": "AAAA/MM/GG",
@@ -377,12 +377,12 @@
       "error": "Errore!",
       "apply": "Applica",
       "done": "Fatto",
-      "close": "Chiuso",
-      "restart": "restart",
+      "close": "Chiudi",
+      "restart": "Ricarica",
       "setup": "Impostare",
       "reset": "Reset",
       "default": "Predefinito",
-      "ok": "OK",
+      "ok": "Ok",
       "cancel": "Cancella",
       "yes": "Si",
       "yesRecommended": "Si(Raccomandato)",
