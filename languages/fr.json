@@ -8,7 +8,7 @@
     "crafted": {
       "craftedWith": "Créé avec",
       "by": "par",
-      "snowgemTeam": "L'équipe de SnowGem"
+      "snowgemTeam": "L'équipe de snowgem"
     },
     "navbar": {
       "logoTitle": "Porte-monnaie snowgem",
@@ -36,7 +36,7 @@
         "sectionTwo": {
             "sectionTitle": "Apps & Resources",
             "appsLink": "Apps",
-            "exchangesLink": "échanges",
+            "exchangesLink": "Échanges",
             "coinsListLink": "Liste des monnaies"
         },
         "footer": {
@@ -50,8 +50,8 @@
         }
     },
     "dashboardView": {
-      "infoMsg1": "Sommaire de votre",
-      "infoMsg2": "Porte-monnaie",
+      "infoMsg1": "Sommaire de votre porte-monnaie",
+      "infoMsg2": "",
       "importantInfo": "Informations importantes!",
       "table": {
         "total": "Total",
