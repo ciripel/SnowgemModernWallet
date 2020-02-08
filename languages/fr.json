@@ -105,8 +105,8 @@
       "showAllAddressesButton": "Voir tous les adresses",
       "modalMultipleShieldErrMsg": "S'il vous plait sélectionnez l'adresse privée dans réglage avant d'utiliser cette option",
       "modalMultipleShieldConfirmMsg" : "Est-ce que vous voulez privatiser tous les monnaies vers",
-      "exportMessage" : "All privakeys have been exported to: ",
-      "exportToFile" : "Export All Privatekeys",
+      "exportMessage" : "Toutes les clefs privées ont été exportées à: ",
+      "exportToFile" : "Exporte toutes les clefs privées",
       "placeholder": {
         "main": "chercher: Addresse / Nom",
         "createAddress": "Nom de l'adresse",
