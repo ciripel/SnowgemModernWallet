@@ -105,8 +105,8 @@
       "showAllAddressesButton": "Zobrazit všechny adresy",
       "modalMultipleShieldErrMsg": "Prosím vyberte privátní adresu v nastavení, předtím než použijete tuto funkci",
       "modalMultipleShieldConfirmMsg" : "Přjete si automaticky skrýt všechny vytvořené mince do",
-      "exportMessage" : "All privakeys have been exported to: ",
-      "exportToFile" : "Export All Privatekeys",
+      "exportMessage" : "Všechny privátní klíče byly exportované: ",
+      "exportToFile" : "Exportovat privátní klíče",
       "placeholder": {
         "main": "Hledat: Adresu / Název",
         "createAddress": "Název adresy",
