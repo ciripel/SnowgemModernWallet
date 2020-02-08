@@ -8,13 +8,15 @@
     "crafted": {
       "craftedWith": "Créé avec",
       "by": "par",
-      "snowgemTeam": "L'équipe de snowgem"
+      "snowgemTeam": "L'équipe de SnowGem"
     },
     "navbar": {
-      "logoTitle": "Porte-monnaie snowgem",
+      "logoTitle": "Porte-monnaie SnowGem",
       "menuIconTitle": "Menu basculeur",
       "reloadIconTitle": "Rechargement du porte-monnaie",
       "aboutIconTitle": "A propos",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Notifications",
       "connectionsIconTitle": "Connections",
       "notificationsHeading": "NOTIFICATIONS",
@@ -31,7 +33,8 @@
             "transactionsLink": "Transactions",
             "masternodesLink": "Masternodes",
             "masternodesListLink": "Liste des Masternodes",
-            "masternodesSetupLink": "Installation d'un Masternode"
+            "masternodesSetupLink": "Installation d'un Masternode",
+            "votingLink": "Voter"
         },
         "sectionTwo": {
             "sectionTitle": "Apps & Resources",
@@ -69,7 +72,8 @@
         "goodAfternoon": "Bonne après-midi!",
         "goodEvening": "Bonne soirée!",
         "txsLast24Hours": "Vos transactions dans les dernières 24 heures",
-        "txsLast7Days": "Vos transactions du dernier mois",
+        "txsLast7Days": "Vos transactions dans les 7 derniers jours",
+        "txsLastMonth": "Vos transactions du dernier mois",
         "txsLastQuarter": "Vos transactions du dernier trimestre",
         "txsLastYear": "Vos transactions de la dernière année"
       }
@@ -101,6 +105,8 @@
       "showAllAddressesButton": "Voir tous les adresses",
       "modalMultipleShieldErrMsg": "S'il vous plait sélectionnez l'adresse privée dans réglage avant d'utiliser cette option",
       "modalMultipleShieldConfirmMsg" : "Est-ce que vous voulez privatiser tous les monnaies vers",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "chercher: Addresse / Nom",
         "createAddress": "Nom de l'adresse",
@@ -186,6 +192,20 @@
         "noOutput": "Vous n'avez aucune autre sortie"
       }
     },
+    "votingView":{
+      "votingForProposal": "Voter pour la proposition",
+      "information": "Information",
+      "proposal": "Proposition",
+      "proposalLink": "Lien de la proposition",
+      "description": "Description",
+      "blockStart": "Début du bloque",
+      "blockEnd": "Fin du block",
+      "vote": "Vote",
+      "successVoted": "Vous avez voté avec succès pour la proposition",
+      "results": "Resultats",
+      "thankYou": "Merci!",
+      "placeholder": "Cherche: Nom de la proposition"
+    },
     "sendView": {
       "fromAddress": "De l'adresse",
       "recipientAddress": "Adresse du destinataire",
@@ -197,6 +217,10 @@
       "messagePrivTx": "Message (Transaction privée seulement)",
       "fee": "Frais",
       "send": "Envoyer",
+      "sendMany": "Envoyer beaucoup",
+      "sendConfirmation1": "Vous etes sur le point d'envoyer",
+      "sendConfirmation2": "a",
+      "sendConfirmation3": "avec les frais",
       "placeholder": {
         "recipientAddress": "S'il vous plait entrez l'adresse du porte-monnaie du destinataire",
         "amount": "Quantité",
@@ -243,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Télécharger la langue",
       "loadingWallet": "Chargement du porte-monnaie, veuillez attendre",
       "selectLinuxVer": "Selectionnez la version Linux",
       "selectOneVer": "selectionnez une version",

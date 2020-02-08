@@ -15,6 +15,8 @@
       "menuIconTitle": "Menü váltás",
       "reloadIconTitle": "Pénztárca újratöltés",
       "aboutIconTitle": "Infó",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Értesítések",
       "connectionsIconTitle": "Kapcsolatok",
       "notificationsHeading": "ÉRTESÍTÉSEK",
@@ -31,7 +33,8 @@
             "transactionsLink": "Tranzakciók",
             "masternodesLink": "Masternode-ok",
             "masternodesListLink": "Masternode Lista",
-            "masternodesSetupLink": "Masternode beálltások"
+            "masternodesSetupLink": "Masternode beálltások",
+            "votingLink": "Szavazás"
         },
         "sectionTwo": {
             "sectionTitle": "Alkalmazások és források",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Minden cím mutatása",
       "modalMultipleShieldErrMsg": "Mielőtt ezt a funkciót használná, válassza a privát címet a Beálltások menüben",
       "modalMultipleShieldConfirmMsg" : "Szeretné bebiztosítani az összes generált digitális pénzt",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Keresés: Cím / Név",
         "createAddress": "Cím név",
@@ -187,6 +192,20 @@
         "noOutput": "Nincs új kimenet"
       }
     },
+    "votingView":{
+      "votingForProposal": "Javaslat megszavazása",
+      "information": "Információ",
+      "proposal": "Javaslat/indítvány",
+      "proposalLink": "Javaslat/indítvány linkje",
+      "description": "Leírás",
+      "blockStart": "Block Indítás",
+      "blockEnd": "Block Befejezés",
+      "vote": "Szavazat",
+      "successVoted": "Succesfully voted for proposal",
+      "results": "Results",
+      "thankYou": "Thank you!",
+      "placeholder": "Keresés: Javaslat megnevezése"
+    },
     "sendView": {
       "fromAddress": "Címről",
       "recipientAddress": "Átvevő címe",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Üzenet (csak privát tranzakciók)",
       "fee": "Díj",
       "send": "Küld",
+      "sendMany": "Nagy mennyiség küldése",
+      "sendConfirmation1": "Küldés folyamatban",
+      "sendConfirmation2": "oda/neki",
+      "sendConfirmation3": "illetékkel",
       "placeholder": {
         "recipientAddress": "Adja meg a címzett pénztárcájának nevét",
         "amount": "Mennyiség",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Nyelvi csomag letöltése",
       "loadingWallet": "Pénztárca betöltése, kérem várjon",
       "selectLinuxVer": "Linux változat kiválasztása",
       "selectOneVer": "Egy verzió kiválasztása",
@@ -393,3 +417,5 @@
       "version": "verzió",
       "confirmationTitle": "Biztos benne?",
       "helpButton": "Segítség"
+    }
+}

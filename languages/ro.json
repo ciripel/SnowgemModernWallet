@@ -15,6 +15,8 @@
       "menuIconTitle": "Comutați meniul",
       "reloadIconTitle": "Reîncărcați portofelul",
       "aboutIconTitle": "Despre",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Notificări",
       "connectionsIconTitle": "Conexiuni",
       "notificationsHeading": "NOTIFICĂRI",
@@ -31,7 +33,8 @@
             "transactionsLink": "Tranzacții",
             "masternodesLink": "Masternoduri",
             "masternodesListLink": "Listă Masternoduri",
-            "masternodesSetupLink": "Setare Masternoduri"
+            "masternodesSetupLink": "Setare Masternoduri",
+            "votingLink": "Vot"
         },
         "sectionTwo": {
             "sectionTitle": "Aplicații și Resurse",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Afișează Toate Adresele",
       "modalMultipleShieldErrMsg": "Va rugăm să selectați o adresă privată în Setări inainte de a folosi această facilitate",
       "modalMultipleShieldConfirmMsg" : "Vreți să protejați toate monedele generate în",
+      "exportMessage" : "Toate cheile private au fost exportate în: ",
+      "exportToFile" : "Exportați Toate Cheile Private",
       "placeholder": {
         "main": "Căutați: Adresă / Nume",
         "createAddress": "Nume adresă",
@@ -187,6 +192,20 @@
         "noOutput": "Nu aveți nici o ieșire nouă"
       }
     },
+    "votingView":{
+      "votingForProposal": "Votul pentru propunerea",
+      "information": "Informații",
+      "proposal": "Propunere",
+      "proposalLink": "Link-ul propunerii",
+      "description": "Descriere",
+      "blockStart": "Blocul de start",
+      "blockEnd": "Block de sfârșit",
+      "vote": "Vot",
+      "successVoted": "Ați votat cu succes propunerea",
+      "results": "Rezultate",
+      "thankYou": "Mulțumesc!",
+      "placeholder": "Căutați: Nume propunere"
+    },
     "sendView": {
       "fromAddress": "De la adresa",
       "recipientAddress": "Adresa destinatarului",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Mesaj (doar pt. tranzacție privată)",
       "fee": "Taxă",
       "send": "Trimite",
+      "sendMany": "Trimite multe",
+      "sendConfirmation1": "Vei trimite",
+      "sendConfirmation2": "la",
+      "sendConfirmation3": "cu taxa",
       "placeholder": {
         "recipientAddress": "Introduceți adresa destinatarului",
         "amount": "Cantitate",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Se descarcă pachetul lingvistic",
       "loadingWallet": "Se încarcă portofelul, vă rugăm să așteptați",
       "selectLinuxVer": "Selectați versiunea Linux",
       "selectOneVer": "selectați o versiune",

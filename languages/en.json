@@ -15,6 +15,8 @@
       "menuIconTitle": "Toggle Menu",
       "reloadIconTitle": "Reload Wallet",
       "aboutIconTitle": "About",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Notifications",
       "connectionsIconTitle": "Connections",
       "notificationsHeading": "NOTIFICATIONS",
@@ -31,7 +33,8 @@
             "transactionsLink": "Transactions",
             "masternodesLink": "Masternodes",
             "masternodesListLink": "Masternodes List",
-            "masternodesSetupLink": "Masternodes Setup"
+            "masternodesSetupLink": "Masternodes Setup",
+            "votingLink": "Voting"
         },
         "sectionTwo": {
             "sectionTitle": "Apps & Resources",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Show All Addresses",
       "modalMultipleShieldErrMsg": "Please select private address in Settings before using this feature",
       "modalMultipleShieldConfirmMsg" : "Do you want to shield all generated coins to",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Search: Address / Name",
         "createAddress": "Address name",
@@ -187,6 +192,20 @@
         "noOutput": "You don't have any new output"
       }
     },
+    "votingView":{
+      "votingForProposal": "Voting for proposal",
+      "information": "Information",
+      "proposal": "Proposal",
+      "proposalLink": "Proposal link",
+      "description": "Description",
+      "blockStart": "Block Start",
+      "blockEnd": "Block End",
+      "vote": "Vote",
+      "successVoted": "Succesfully voted for proposal",
+      "results": "Results",
+      "thankYou": "Thank you!",
+      "placeholder": "Search: Proposal name"
+    },
     "sendView": {
       "fromAddress": "From address",
       "recipientAddress": "Recipient address",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Message (private transaction only)",
       "fee": "Fee",
       "send": "Send",
+      "sendMany": "Send many",
+      "sendConfirmation1": "You are going to send",
+      "sendConfirmation2": "to",
+      "sendConfirmation3": "with fee",
       "placeholder": {
         "recipientAddress": "Please enter recipient wallet address",
         "amount": "Amount",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Downloading language pack",
       "loadingWallet": "Loading wallet, please wait",
       "selectLinuxVer": "Select Linux Version",
       "selectOneVer": "select one version",
@@ -263,7 +287,7 @@
       "checkDaemon": "Checking daemon",
       "downloadDaemon": "Downloading daemon",
       "daemonVerSelect": "Select a version from dropdown",
-      "checkDataFolder": "Checkling data folder",
+      "checkDataFolder": "Checking data folder",
       "checkBlockchain": "Checking blockchain",
       "autoDownloadBlockchain": "Do you want to download blockchain automatically? (This action will speed up your syncing process)",
       "startDeamon": "Starting daemon",
@@ -353,7 +377,7 @@
       "dataFolder": "Data folder cannot be empty",
       "defaultDataLocation": "Do you want to use default data location?",
       "downloadErr1": "Downloading error, restarting wallet",
-      "downloadErr2": "Download files error, please restart wallet.",
+      "downloadErr2": "Download files error, please restart wallet",
       "downloadErr3": "Downloading blockchain error, restarting wallet",
       "scopeUpdate1": "Extracting file",
       "scopeUpdate2": "Downloading",

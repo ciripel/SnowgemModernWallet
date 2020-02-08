@@ -15,6 +15,8 @@
       "menuIconTitle":"Toggle Menu",
       "reloadIconTitle":"Genstart Tegnebog",
       "aboutIconTitle":"Om",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle":"Notifikationer",
       "connectionsIconTitle":"Forbindelser",
       "notificationsHeading":"FORBINDELSER",
@@ -31,7 +33,8 @@
          "transactionsLink":"Transaktioner",
          "masternodesLink":"Masternodes",
          "masternodesListLink":"Masternodes Liste",
-         "masternodesSetupLink":"Masternodes Setup"
+         "masternodesSetupLink":"Masternodes Setup",
+         "votingLink": "Afstemning"
       },
       "sectionTwo":{
          "sectionTitle":"Apps & Ressourcer",
@@ -102,6 +105,8 @@
       "showAllAddressesButton":"Vis Alle Adresser",
       "modalMultipleShieldErrMsg":"Venligst vælg en privat adresse i indstillinger før brug af denne feature",
       "modalMultipleShieldConfirmMsg":"Vil du beskyt/sende alle genererede mønter til",
+      "exportMessage" : "Privatnøgler er blevet eksporteret til: ",
+      "exportToFile" : "Eksporter alle privatnøgler",
       "placeholder":{
          "main":"Søg: Adresse / Navn",
          "createAddress":"Adresse navn",
@@ -187,6 +192,20 @@
          "noOutput":"Du har ikke noget nyt output"
       }
    },
+   "votingView":{
+     "votingForProposal": "Afstemning",
+     "information": "Information",
+     "proposal": "Forslag",
+     "proposalLink": "Forslag link",
+     "description": "Beskrivelse",
+     "blockStart": "Block Start",
+     "blockEnd": "Block End",
+     "vote": "Stem",
+     "successVoted": "Stemme godkendt",
+     "results": "Resultater",
+     "thankYou": "Mange tak!",
+     "placeholder": "Søg: Forslag navn"
+   },
    "sendView":{
       "fromAddress":"Fra adresse",
       "recipientAddress":"Modtager adresse",
@@ -198,6 +217,10 @@
       "messagePrivTx":"Besked (privat transaktion kun)",
       "fee":"Gebyr",
       "send":"Send",
+      "sendMany": "Send mange",
+      "sendConfirmation1": "Du skal til at sende",
+      "sendConfirmation2": "til",
+      "sendConfirmation3": "med gebyr",
       "placeholder":{
          "recipientAddress":"Venligst indtaste modtagers tegnebogs adresse",
          "amount":"Mængde",
@@ -244,6 +267,7 @@
       }
    },
    "loadingView":{
+      "downloadLanguage": "Downloader sprogpakke",
       "loadingWallet":"Starter tegnebog, vent venligst",
       "selectLinuxVer":"Vælg Linux Version",
       "selectOneVer":"vælg én version",

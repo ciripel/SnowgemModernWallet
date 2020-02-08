@@ -15,6 +15,8 @@
       "menuIconTitle": "Alternar el Menú",
       "reloadIconTitle": "Recargar Cartera",
       "aboutIconTitle": "Acerca de",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Notificationes",
       "connectionsIconTitle": "Conexiones",
       "notificationsHeading": "NOTIFICACIONES",
@@ -31,7 +33,8 @@
             "transactionsLink": "Transacciones",
             "masternodesLink": "Masternodos",
             "masternodesListLink": "Lista de Masternodos",
-            "masternodesSetupLink": "Configuración de Masternodos"
+            "masternodesSetupLink": "Configuración de Masternodos",
+            "votingLink": "Votación"
         },
         "sectionTwo": {
             "sectionTitle": "Aplicaciones y Recursos",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Mostrar todas las Direcciones",
       "modalMultipleShieldErrMsg": "Por Favor de seleccionar una dirección privada en Ajustes antes de utilizar esta función",
       "modalMultipleShieldConfirmMsg" : "Deseas blindar todas las monedas generadas a",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Busqueda: Dirección / Nombre",
         "createAddress": "Nombre de la Dirección",
@@ -187,6 +192,20 @@
         "noOutput": "No tienes ningun nuevo resultado"
       }
     },
+    "votingView":{
+      "votingForProposal": "votando por la propuesta",
+      "information": "Información",
+      "proposal": "Propuesta",
+      "proposalLink": "Enlace de la propuesta",
+      "description": "Descripción",
+      "blockStart": "Bloque de comienzo",
+      "blockEnd": "Bloque final",
+      "vote": "Vota",
+      "successVoted": "Se votó con éxito la propuesta",
+      "results": "Resultados",
+      "thankYou": "Gracias!",
+      "placeholder": "Busqueda: Nombre de propuesta"
+    },
     "sendView": {
       "fromAddress": "De la dirección",
       "recipientAddress": "Dirección del Destinatario",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Mensaje (Unicamente en transacción privada)",
       "fee": "Costo",
       "send": "Enviar",
+      "sendMany": "Enviar muchos",
+      "sendConfirmation1": "Vas a enviar",
+      "sendConfirmation2": "a",
+      "sendConfirmation3": "con pago",
       "placeholder": {
         "recipientAddress": "Por favor de ingresar la dirección de la cartera del destinatario",
         "amount": "Cantidad",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Descargando paquete de lenguajes",
       "loadingWallet": "Cargando la cartera, favor de esperar",
       "selectLinuxVer": "Seleccionar la Version Linux",
       "selectOneVer": "Seleccione una version",

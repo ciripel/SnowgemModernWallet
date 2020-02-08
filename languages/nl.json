@@ -1,28 +1,30 @@
-{  
+{
    "language":"Dutch",
-   "menubar":{  
+   "menubar":{
       "titleBtn":"Herstart Wallet",
       "text1":"Wilt u dit selecteren",
       "text2":"Wacht alstublieft totdat de wallet volledig is geladen."
    },
-   "crafted":{  
+   "crafted":{
       "craftedWith":"Gemaakt met",
       "by":"door",
       "snowgemTeam":"SnowGem Team"
    },
-   "navbar":{  
+   "navbar":{
       "logoTitle":"SnowGem Wallet",
       "menuIconTitle":"Schakel Menu",
       "reloadIconTitle":"Herstart Wallet",
       "aboutIconTitle":"Over",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle":"Melding",
       "connectionsIconTitle":"Verbindingen",
       "notificationsHeading":"Meldingen",
       "notificationsBadgeNew":"Nieuw",
       "notificationsNote":"Klik voor meer informatie"
    },
-   "sidebar":{  
-      "sectionOne":{  
+   "sidebar":{
+      "sectionOne":{
          "sectionTitle":"Algemeen",
          "dashboardLink":"Dashboard",
          "sendCoinsLink":"Verstuur Coins",
@@ -31,29 +33,30 @@
          "transactionsLink":"Transacties",
          "masternodesLink":"Masternodes",
          "masternodesListLink":"Masternodes Lijst",
-         "masternodesSetupLink":"Masternodes Installatie"
+         "masternodesSetupLink":"Masternodes Installatie",
+         "votingLink": "Voting"
       },
-      "sectionTwo":{  
+      "sectionTwo":{
          "sectionTitle":"Apps & Bronnen",
          "appsLink":"Apps",
          "exchangesLink":"Uitwisselingen",
          "coinsListLink":"Coins Lijst"
       },
-      "footer":{  
+      "footer":{
          "settingsLink":"Instellingen",
          "aboutLink":"Over",
          "closeLink":"Sluit"
       },
-      "alternative":{  
+      "alternative":{
          "dashboardLink":"Dashboard",
          "forumLink":"Forum"
       }
    },
-   "dashboardView":{  
+   "dashboardView":{
       "infoMsg1":"Hier is een overzicht van uw",
       "infoMsg2":"Wallet",
       "importantInfo":"Belangrijke Informatie!",
-      "table":{  
+      "table":{
          "total":"Totaal",
          "immature":"Onvolkomen",
          "unconfirmed":"Niet bevestigt",
@@ -64,7 +67,7 @@
          "incoming":"Inkomende",
          "outgoing":"Uitgaande"
       },
-      "operations":{  
+      "operations":{
          "goodMorning":"Goedemorgen!",
          "goodAfternoon":"Goedemiddag!",
          "goodEvening":"Goedenavond!",
@@ -75,7 +78,7 @@
          "txsLastYear":"Uw transacties in de afgelopen jaar"
       }
    },
-   "addressesView":{  
+   "addressesView":{
       "importKeysButton":"Importeer Privé Sleutels(s)",
       "importKeysButtonImporting":"importeren",
       "getAdresses":"Krijg Privésleutel",
@@ -102,12 +105,14 @@
       "showAllAddressesButton":"Toon Alle Adressen",
       "modalMultipleShieldErrMsg":" Selecteer eerst een privé adres in de instellingen voordat u de functie gebruikt.",
       "modalMultipleShieldConfirmMsg":"Wilt u alle gegenereerde coins ook beschermen",
-      "placeholder":{  
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
+      "placeholder":{
          "main":"Search: Adres / Naam",
          "createAddress":"Adres naam",
          "importPrivatekeys":" Ieder privé sleutel in een regel"
       },
-      "table":{  
+      "table":{
          "name":"Naam",
          "qr":"QR",
          "type":"Type",
@@ -117,7 +122,7 @@
          "privateType":"prive",
          "publicType":"publiek"
       },
-      "operations":{  
+      "operations":{
          "keysImportTitle":"Attentie",
          "keysImportMsg":"Het importeren van adressen duurt lang, uw wallet informatie word niet bijgewerkt totdat dit proces compleet is.\nIt het kan langer dan 10 minuten duren",
          "readOnlyErrTitle":"Alert",
@@ -126,7 +131,7 @@
          "duplicateNameErrMsg":"Dubbele namen worden niet geaccepteerd. Kies een unieke naam alstublieft"
       }
    },
-   "masternodesView":{  
+   "masternodesView":{
       "actionsBtn":"Acties",
       "editBtn":"Bewerk",
       "copyAliasBtn":"Kopieer Alias",
@@ -138,7 +143,7 @@
       "localConfigTitle":"Lokale Configuratie",
       "masternodesListTitle":"Masternodes Lijst",
       "placeholder":"Zoek: Adres / Tx hash / IP",
-      "table":{  
+      "table":{
          "rank":"Rang",
          "locked":"Vergrendeld",
          "alias":"Alias",
@@ -155,7 +160,7 @@
          "enabledStatus":"INGESCHAKELD",
          "expiredStatus":"VERLOPEN"
       },
-      "operations":{  
+      "operations":{
          "aliasName":"Alias naam",
          "vpsIp":"VPS IP",
          "privateKey":"Prive Sleutel",
@@ -171,13 +176,13 @@
          "mnDetails":"Masternode Details"
       }
    },
-   "mnsconfigView":{  
+   "mnsconfigView":{
       "getPrivKey":"Verkrijg Prive Sleutel",
       "generateMnData":"Genereer` Masternode Data",
       "newMnData":"Nieuw Masternode Data",
       "setupMn":"Configureer Masternode",
       "MnKey":"Masternode Sleutel",
-      "operations":{  
+      "operations":{
          "aliasEmpty":"Alias naam kan niet leeg zijn",
          "aliasWhitespace":"Alias naam moet geen lege regels bevatten",
          "ipEmpty":"IP-adres kan niet leeg zijn",
@@ -187,7 +192,21 @@
          "noOutput":"U heeft geen nieuwe uitvoer"
       }
    },
-   "sendView":{  
+   "votingView":{
+      "votingForProposal": "Voting for proposal",
+      "information": "Information",
+      "proposal": "Proposal",
+      "proposalLink": "Proposal link",
+      "description": "Description",
+      "blockStart": "Block Start",
+      "blockEnd": "Block End",
+      "vote": "Vote",
+      "successVoted": "Succesfully voted for proposal",
+      "results": "Results",
+      "thankYou": "Thank you!",
+      "placeholder": "Search: Proposal name"
+   },
+   "sendView":{
       "fromAddress":"Vanaf adres",
       "recipientAddress":"Ontvanger adres",
       "addressBook":"Adresboek",
@@ -198,12 +217,16 @@
       "messagePrivTx":"Bericht (alleen privé transacties)",
       "fee":"Kosten",
       "send":"Verstuur",
-      "placeholder":{  
+      "sendMany": "Send many",
+      "sendConfirmation1": "You are going to send",
+      "sendConfirmation2": "to",
+      "sendConfirmation3": "with fee",
+      "placeholder":{
          "recipientAddress":" Voer ontvanger wallet adres in alstublieft",
          "amount":"Hoeveelheid",
          "message":"Bericht"
       },
-      "operations":{  
+      "operations":{
          "selectSendAddress":"Selecteer alstublieft een verzendadres",
          "putReceiverAddress":"Voer alstublieft een ontvanger adres in",
          "putAmount":"Voer de hoeveelheid alstublieft in",
@@ -212,14 +235,14 @@
          "checkTxError":"Controleer transactie error"
       }
    },
-   "shieldView":{  
+   "shieldView":{
       "address":"Transparent Adres",
       "chooseAddress":"Selecteer transparant adres...",
       "privateAddr":"Prive Adres",
       "choosePrivateAddr":"Kies privé adres...",
       "shield":"Bescherm",
       "shieldAll":"Bescherm Alle Coins",
-      "operations":{  
+      "operations":{
          "walletNotSynced":"Uw wallet is niet gesynchroniseerd",
          "shieldAll":"Wilt u alle gegeneerde coins beschermen naar",
          "noCoinToShield":"Geen coins om te beschermen",
@@ -227,10 +250,10 @@
          "shieldAllDone":"Volledige bescherming is compleet"
       }
    },
-   "transactionsView":{  
+   "transactionsView":{
       "txDetails":"Transactie details",
       "viewOnExplorer":"Toon in explorer",
-      "table":{  
+      "table":{
          "direction":"Richting",
          "date":"Datum",
          "address":"Adres",
@@ -243,7 +266,8 @@
          "immature":"onvolgroeid"
       }
    },
-   "loadingView":{  
+   "loadingView":{
+      "downloadLanguage": "Downloading language pack",
       "loadingWallet":"Bezig met het laden van wallet, een moment geduld alstublieft",
       "selectLinuxVer":"Selecteer Linux Versie",
       "selectOneVer":"Selecteer een versie",
@@ -284,7 +308,7 @@
       "loadingAddresses":"Laden van adressen",
       "rewindingBlocks":"Terugspoelen van blocks, wanneer nodig"
    },
-   "settingsView":{  
+   "settingsView":{
       "toolsBtn":"Gereedschappen",
       "getPeersBtn":"Verkrijgen van Peers",
       "setPeersBtn":"Instellen van Peers",
@@ -316,12 +340,12 @@
       "autoShieldTip":"Automatische bescherming van gegenereerde coins",
       "showFiatBalanceBtn":"Toon Fiat Balans",
       "showFiatBalanceTip":"Toon fiat balans op overzicht pagina",
-      "placeholder":{  
+      "placeholder":{
          "peersInOneLine":"Ieder peer in een regel",
          "botName":"Bot naam",
          "apiKey":"API key"
       },
-      "operations":{  
+      "operations":{
          "datetimeType1":"YYYY/MM/DD",
          "datetimeType2":"DD/MM/YYYY",
          "day":"Dag",
@@ -345,7 +369,7 @@
          "peersList":"Peers Lijst"
       }
    },
-   "splashscreen":{  
+   "splashscreen":{
       "currentProcess":"Initialiseren",
       "ossOthers":"Overigen",
       "daemonLocation":"Daemon locatie kan niet leeg zijn",
@@ -362,12 +386,12 @@
       "downloadErr4":"Download blockchain error, herstart uw wallet alstublieft.",
       "selectDataDir":"Selecteer data map"
    },
-   "endscreen":{  
+   "endscreen":{
       "shutdown1":"ModernWallet is aan het afsluiten",
       "shutdown2":"Schakel uw computer alstublieft niet uit",
       "shutdown3":"Totdat dit venster verdwijnt."
    },
-   "global":{  
+   "global":{
       "success":"Successvol",
       "success1":"SUCCESS",
       "success2":"Success",

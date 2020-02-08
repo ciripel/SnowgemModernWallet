@@ -15,6 +15,8 @@
       "menuIconTitle": "Переключить меню",
       "reloadIconTitle": "Перезагрузить кошелёк",
       "aboutIconTitle": "О продукте",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Уведомления",
       "connectionsIconTitle": "Соединения",
       "notificationsHeading": "УВЕДОМЛЕНИЯ",
@@ -31,7 +33,8 @@
             "transactionsLink": "Транзакции",
             "masternodesLink": "Мастерноды",
             "masternodesListLink": "Список мастернод",
-            "masternodesSetupLink": "Настройка мастерноды"
+            "masternodesSetupLink": "Настройка мастерноды",
+            "votingLink": "Голосование"
         },
         "sectionTwo": {
             "sectionTitle": "Приложения и ресурсы",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Показать все адреса",
       "modalMultipleShieldErrMsg": "Пожалуйста, выберите приватный адрес перед использованием этой функции",
       "modalMultipleShieldConfirmMsg" : "Вы хотите защитить все сгенерированные монеты на",
+      "exportMessage" : "Все приватные ключи экспортированы: ",
+      "exportToFile" : "Экспорт всех прикатных ключей",
       "placeholder": {
         "main": "Поиск: Адрес / Название",
         "createAddress": "Название адреса",
@@ -187,6 +192,20 @@
         "noOutput": "У вас нет нового вывода"
       }
     },
+    "votingView":{
+      "votingForProposal": "Голосование за Предложение",
+      "information": "Информация",
+      "proposal": "Предложение",
+      "proposalLink": "Ссылка на Предложение",
+      "description": "Описание",
+      "blockStart": "Начало Блока",
+      "blockEnd": "Конец Блока",
+      "vote": "Голос",
+      "successVoted": "Ваш голос учтен",
+      "results": "Результаты",
+      "thankYou": "Спасибо!",
+      "placeholder": "Поиск: название Предложения"
+    },
     "sendView": {
       "fromAddress": "От адреса",
       "recipientAddress": "Адрес получателя",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Сообщение (только приватная транзакция)",
       "fee": "Комиссия",
       "send": "Отправить",
+      "sendMany": "Отправить",
+      "sendConfirmation1": "Вы собираетесь отправить",
+      "sendConfirmation2": "на",
+      "sendConfirmation3": "с комиссией",
       "placeholder": {
         "recipientAddress": "Пожалуйста, введите адрес получателя",
         "amount": "Сумма",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Загрузка языкового пакета",
       "loadingWallet": "Загрузка кошелька, пожалуйста подождите",
       "selectLinuxVer": "Выберите версию Linux",
       "selectOneVer": "выберите одну версию",

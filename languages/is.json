@@ -15,6 +15,8 @@
       "menuIconTitle": "Opna/loka valmynd",
       "reloadIconTitle": "Endurhlaða veski",
       "aboutIconTitle": "Um",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Tilkynningar",
       "connectionsIconTitle": "Tengingar",
       "notificationsHeading": "TILKYNNINGAR",
@@ -31,7 +33,8 @@
             "transactionsLink": "Færslur",
             "masternodesLink": "Stjórnóða",
             "masternodesListLink": "Stjórnóðu-Listi",
-            "masternodesSetupLink": "Stjórnóðu-Uppsetning"
+            "masternodesSetupLink": "Stjórnóðu-Uppsetning",
+            "votingLink": "Kosning"
         },
         "sectionTwo": {
             "sectionTitle": "Forrit & Úrræði",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Sýna öll reikningsnúmer",
       "modalMultipleShieldErrMsg": "Vinsamlegast veldu einkareikningsnúmer í Stillingum áður en þú notar þennan möguleika",
       "modalMultipleShieldConfirmMsg" : "Viltu verja alla myndaða mynt til",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Leita: Reikningsnúmer / Nafn",
         "createAddress": "Nafn reikningsnúmers",
@@ -187,6 +192,20 @@
         "noOutput": "Þú hefur enga nýja færslu"
       }
     },
+    "votingView":{
+      "votingForProposal": "Kosning um Tillögu",
+      "information": "Upplýsingar",
+      "proposal": "Tillaga",
+      "proposalLink": "Hlekkur að tillögu",
+      "description": "Lýsing",
+      "blockStart": "Byrjunarhlekkur",
+      "blockEnd": "Endahlekkur",
+      "vote": "Kjósa",
+      "successVoted": "Kosning tillögu heppnaðist",
+      "results": "Niðurstöður",
+      "thankYou": "Þakka þér!",
+      "placeholder": "Leita: Nafn Tillögu"
+    },
     "sendView": {
       "fromAddress": "Frá reikningsnúmeri",
       "recipientAddress": "Reikningsnúmer viðtakanda",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Skilaboð (aðeins einkafærslur)",
       "fee": "Gjald",
       "send": "Senda",
+      "sendMany": "Senda á mörg",
+      "sendConfirmation1": "Þú ert að fara að senda",
+      "sendConfirmation2": "til",
+      "sendConfirmation3": "með gjaldi",
       "placeholder": {
         "recipientAddress": "Please enter recipient wallet address",
         "amount": "Amount",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Niðurhleð tungumálapakka",
       "loadingWallet": "Hleð veski, vinsamlegast bíðið",
       "selectLinuxVer": "Veldu Linux útgáfu",
       "selectOneVer": "Veldu eina útgáfu",

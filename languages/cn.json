@@ -15,6 +15,8 @@
       "menuIconTitle": "切换菜单",
       "reloadIconTitle": "重新加载钱包",
       "aboutIconTitle": "关于",
+      "TwittertIconTitle": "推特",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "通知",
       "connectionsIconTitle": "连接",
       "notificationsHeading": "通知",
@@ -31,7 +33,8 @@
             "transactionsLink": "交易",
             "masternodesLink": "主节点",
             "masternodesListLink": "主节点菜单",
-            "masternodesSetupLink": "主节点设置"
+            "masternodesSetupLink": "主节点设置",
+            "votingLink": "投票"
         },
         "sectionTwo": {
             "sectionTitle": "应用与资源",
@@ -55,7 +58,7 @@
       "importantInfo": "重要信息！",
       "table": {
         "total": "全部",
-        "immature": "Immature",
+        "immature": "未完成",
         "unconfirmed": "待确认的",
         "transparent": "透明",
         "private": "私人的",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "显示所有地址",
       "modalMultipleShieldErrMsg": "请在使用此功能前在“设置”中选择私人地址",
       "modalMultipleShieldConfirmMsg" : "您是否想要屏蔽所有已生成的钱币",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "搜索：地址/名称",
         "createAddress": "地址名称",
@@ -146,6 +151,7 @@
         "lastSeen": "最后查看",
         "ip": "IP地址",
         "mnPrivKey": "主节点私钥",
+        "txId": "Txid",
         "index": "索引",
         "status": "状态",
         "version": "版本",
@@ -186,6 +192,20 @@
         "noOutput": "您没有任何新的输出"
       }
     },
+    "votingView":{
+      "votingForProposal": "为提案投票",
+      "information": "信息",
+      "proposal": "提案",
+      "proposalLink": "提案链接",
+      "description": "描述",
+      "blockStart": "区块骑士",
+      "blockEnd": "区块结束",
+      "vote": "投票",
+      "successVoted": "支持提案投票成功",
+      "results": "结果",
+      "thankYou": "谢谢！",
+      "placeholder": "搜索: 提案名称"
+    },
     "sendView": {
       "fromAddress": "发送地址",
       "recipientAddress": "接收地址",
@@ -197,6 +217,10 @@
       "messagePrivTx": "消息（仅限私人交易）",
       "fee": "费用",
       "send": "发送",
+      "sendMany": "发送较多的",
+      "sendConfirmation1": "你将要发送",
+      "sendConfirmation2": "至",
+      "sendConfirmation3": "费用",
       "placeholder": {
         "recipientAddress": "请输入接收钱包地址",
         "amount": "数量",
@@ -243,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "下载语言包",
       "loadingWallet": "正在加载钱包，请稍等",
       "selectLinuxVer": "选择Linux版本",
       "selectOneVer": "选择一个版本",

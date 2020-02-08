@@ -15,6 +15,8 @@
       "menuIconTitle": "Commuta menu",
       "reloadIconTitle": "Ricarica il portafoglio",
       "aboutIconTitle": "Circa",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Notifiche",
       "connectionsIconTitle": "Connessioni",
       "notificationsHeading": "NOTIFICHE",
@@ -31,7 +33,8 @@
             "transactionsLink": "Transazioni",
             "masternodesLink": "Masternodes",
             "masternodesListLink": "Masternodes Lista",
-            "masternodesSetupLink": "Masternodes Impostazioni"
+            "masternodesSetupLink": "Masternodes Impostazioni",
+            "votingLink": "Link al voto"
         },
         "sectionTwo": {
             "sectionTitle": "Applicazioni & Risorse",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Mostra tutti gli indirizzi",
       "modalMultipleShieldErrMsg": "Si Prega di selezionare un indirizzo privato nelle Impostazioni prima di utilizzare questa funzione",
       "modalMultipleShieldConfirmMsg" : "Vuoi proteggere tutte le monete generate",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Cerca: Indirizzo / Nome",
         "createAddress": "Nome Indirizzo",
@@ -187,6 +192,20 @@
         "noOutput": "Non hai nessun nuovo output"
       }
     },
+    "votingView":{
+      "votingForProposal": "Vota per la proposta",
+      "information": "Informazioni",
+      "proposal": "Proposta",
+      "proposalLink": "Link alla proposta",
+      "description": "Descrizione",
+      "blockStart": "Blocco di partenza",
+      "blockEnd": "Blocco di fine",
+      "vote": "Voto",
+      "successVoted": "Proposta votata con successo ",
+      "results": "Resultati",
+      "thankYou": "Grazie!",
+      "placeholder": "Cerca: Nome proposta"
+    },
     "sendView": {
       "fromAddress": "Dall'Indirizzo",
       "recipientAddress": "Indirizzo Destinatario",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Messaggio (Solo transazione privata)",
       "fee": "Tasse transazione",
       "send": "Invia",
+      "sendMany": "Manda molti",
+      "sendConfirmation1": "Stai mandando",
+      "sendConfirmation2": "a",
+      "sendConfirmation3": "con fee",
       "placeholder": {
         "recipientAddress": "Si prega di inserire indirizzo portafoglio destinatario",
         "amount": "Quantita'",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Downloading language pack",
       "loadingWallet": "Si prega di attendere , caricamento portaglio",
       "selectLinuxVer": "Seleziona Versione Linux",
       "selectOneVer": "Seleziona una versione",

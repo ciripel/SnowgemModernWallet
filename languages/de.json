@@ -15,6 +15,8 @@
       "menuIconTitle": "Toggle-Menü",
       "reloadIconTitle": "Brieftasche neu laden",
       "aboutIconTitle": "Über",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Benachrichtigungen",
       "connectionsIconTitle": "Verbindungen",
       "notificationsHeading": "BENACHRICHTIGUNGEN",
@@ -31,7 +33,8 @@
             "transactionsLink": "Transaktionen",
             "masternodesLink": "Masternodes",
             "masternodesListLink": "Masternodes Liste",
-            "masternodesSetupLink": "Masternodes Einrichtung"
+            "masternodesSetupLink": "Masternodes Einrichtung",
+            "votingLink": "Wahlen"
         },
         "sectionTwo": {
             "sectionTitle": "Apps & Ressourcen",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Alle Adressen anzeigen",
       "modalMultipleShieldErrMsg": "Bitte wählen Sie Ihre private Adresse in den Einstellungen aus, bevor sie diese Funktion benutzen",
       "modalMultipleShieldConfirmMsg" : "Wollen Sie alle generierten Coins abschirmen zu folgende(n) Adresse(n)?",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Suche: Adresse / Name",
         "createAddress": "Name der Adresse",
@@ -187,6 +192,20 @@
         "noOutput": "Sie haben keinen neuen Output"
       }
     },
+    "votingView":{
+    "votingForProposal": "Für einen Vorschlag stimmen",
+    "information": "Informationen",
+    "proposal": "Vorschlag",
+    "proposalLink": "Vorschlags Link",
+    "description": "Beschreibung",
+    "blockStart": "Start Block",
+    "blockEnd": "End Block",
+    "vote": "Wahl",
+    "successVoted": "Erfolgreich für einen Vorschlag abgestimmt",
+    "results": "Ergebnis",
+    "thankYou": "Vielen Dank!",
+    "placeholder": "Suche: Vorschlagsname"
+    },
     "sendView": {
       "fromAddress": "Absenderadresse",
       "recipientAddress": "Empfängeradresse",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Nachricht (nur private Transaktion)",
       "fee": "Gebühr",
       "send": "Senden",
+      "sendMany": "Senden",
+      "sendConfirmation1": "Sie verschicken gerade",
+      "sendConfirmation2": "an",
+      "sendConfirmation3": "mit Gebühr",
       "placeholder": {
         "recipientAddress": "Bitte geben Sie die Empfängeradresse ein",
         "amount": "Betrag",
@@ -244,6 +267,7 @@
       }
     },
     "loadingView": {
+      "downloadLanguage": "Sprachpaket herunterladen",
       "loadingWallet": "Lade Brieftasche, bitte warten",
       "selectLinuxVer": "Linux Version auswählen",
       "selectOneVer": "wählen Sie eine Version aus",

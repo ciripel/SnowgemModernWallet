@@ -15,9 +15,11 @@
       "menuIconTitle": "Skryj Menu",
       "reloadIconTitle": "Znovunačíst Peněženku",
       "aboutIconTitle": "O produktu",
+      "TwittertIconTitle": "Twitter",
+      "DiscordIconTitle":"Discord",
       "notificationsIconTitle": "Upozornění",
       "connectionsIconTitle": "Spojení",
-      "notificationsHeading": "UPOZORNÉNÍ",
+      "notificationsHeading": "UPOZORNĚNÍ",
       "notificationsBadgeNew": "Nová",
       "notificationsNote": "Klikni pro více informací"
     },
@@ -31,7 +33,8 @@
             "transactionsLink": "Transakce",
             "masternodesLink": "Masternody",
             "masternodesListLink": "Seznam Masternodů",
-            "masternodesSetupLink": "Nastavení Masternodů"
+            "masternodesSetupLink": "Nastavení Masternodů",
+            "votingLink": "Hlasování"
         },
         "sectionTwo": {
             "sectionTitle": "Aplikace & Odkazy",
@@ -102,6 +105,8 @@
       "showAllAddressesButton": "Zobrazit všechny adresy",
       "modalMultipleShieldErrMsg": "Prosím vyberte privátní adresu v nastavení, předtím než použijete tuto funkci",
       "modalMultipleShieldConfirmMsg" : "Přjete si automaticky skrýt všechny vytvořené mince do",
+      "exportMessage" : "All privakeys have been exported to: ",
+      "exportToFile" : "Export All Privatekeys",
       "placeholder": {
         "main": "Hledat: Adresu / Název",
         "createAddress": "Název adresy",
@@ -187,6 +192,20 @@
         "noOutput": "Nemáte žádný nový výstup"
       }
     },
+    "votingView":{
+      "votingForProposal": "Hlasování o návrhu",
+      "information": "Informace",
+      "proposal": "Návrh",
+      "proposalLink": "Odkaz na návrh",
+      "description": "Detaily",
+      "blockStart": "Počáteční blok",
+      "blockEnd": "Konečný blok",
+      "vote": "Hlasovat",
+      "successVoted":"Odhlasováno",
+      "results":"Výsledky",
+      "thankYou":"Díkes!",
+      "placeholder": "Vyhledat: Jméno návrhu"
+    },
     "sendView": {
       "fromAddress": "Z adresy",
       "recipientAddress": "Adresa příjemce",
@@ -198,6 +217,10 @@
       "messagePrivTx": "Zpráva (pouze privátní transakce)",
       "fee": "Poplatek",
       "send": "Odeslat",
+      "sendMany": "Odeslat více",
+      "sendConfirmation1": "Chystáte se odeslat",
+      "sendConfirmation2": "na",
+      "sendConfirmation3": "s poplatkem",
       "placeholder": {
         "recipientAddress": "Zadejte prosím adresu příjemce",
         "amount": "Částka",
@@ -237,13 +260,14 @@
         "amount": "Částka",
         "validated": "Ověřeno",
         "details": "Detaily",
-        "send": "odeslat",
-        "receive": "přijmout",
-        "generate": "generovat",
+        "send": "odesláno",
+        "receive": "přijato",
+        "generate": "generované",
         "immature": "očekávaná"
       }
     },
     "loadingView": {
+      "downloadLanguage": "Stahuji jazykové soubory",
       "loadingWallet": "Počkejte prosím, peněženka se načítá",
       "selectLinuxVer": "Vyberte verzi Linuxu",
       "selectOneVer": "vyberte verzi",
