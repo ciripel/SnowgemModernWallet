@@ -105,8 +105,8 @@
       "showAllAddressesButton": "Pokaż wszystkie adresy ",
       "modalMultipleShieldErrMsg": "Prosze o wskazanie adresu prywatnego zanim rozpoczniesz shielding",
       "modalMultipleShieldConfirmMsg" : "Czy chesz shieldować wszystkie wygenerowne monety",
-      "exportMessage" : "All privakeys have been exported to: ",
-      "exportToFile" : "Export All Privatekeys",
+      "exportMessage" : "Wszystkie prywatne klucze zostały wyeksportowane do: ",
+      "exportToFile" : "Eksport wszystkich prywatnych kluczy",
       "placeholder": {
         "main": "Search: Address / Name",
         "createAddress": "Address name",
@@ -201,9 +201,9 @@
       "blockStart": "Blok startowy",
       "blockEnd": "Blok końcowy",
       "vote": "Głos",
-      "successVoted": "Succesfully voted for proposal",
-      "results": "Results",
-      "thankYou": "Thank you!",
+      "successVoted": "Zagłosowano za propozycją",
+      "results": "Wyniki",
+      "thankYou": "Dziękuję!",
       "placeholder": "Znajdź: Nazwe propozycji"
     },
     "sendView": {
