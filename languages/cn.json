@@ -151,7 +151,7 @@
         "lastSeen": "最后查看",
         "ip": "IP地址",
         "mnPrivKey": "主节点私钥",
-        "txId": "Txid",
+        "txId": "转账纪录",
         "index": "索引",
         "status": "状态",
         "version": "版本",
