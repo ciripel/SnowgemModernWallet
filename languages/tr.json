@@ -8,7 +8,7 @@
     "crafted": {
       "craftedWith": "ile hazırlanmış",
       "by": "tarafından",
-      "snowgemTeam": "SnowGem Team"
+      "snowgemTeam": "SnowGem Takımı"
     },
     "navbar": {
       "logoTitle": "SnowGem cüzdanı",
@@ -34,7 +34,7 @@
             "masternodesLink": "Masternodes",
             "masternodesListLink": "Masternodes Listesi",
             "masternodesSetupLink": "Masternodes Kurulumu",
-            "votingLink": "Voting"
+            "votingLink": "Oylama"
         },
         "sectionTwo": {
             "sectionTitle": "Uygulamalar ve Kaynaklar",
@@ -105,8 +105,8 @@
       "showAllAddressesButton": "Tüm Adresleri Göster",
       "modalMultipleShieldErrMsg": "Bu özelliği kullanmadan önce lütfen Ayarlar'dan özel adres seçin",
       "modalMultipleShieldConfirmMsg" : "Üretilen tüm coinları aşağıdaki adreslere korumak istiyor musunuz?",
-      "exportMessage" : "All privakeys have been exported to: ",
-      "exportToFile" : "Export All Privatekeys",
+      "exportMessage" : "Tüm özel anahtarlar şu konuma aktarıldı: ",
+      "exportToFile" : "Tüm Özel Anahtarları Dışa Aktar",
       "placeholder": {
         "main": "Ara: Adres / Ad",
         "createAddress": "Adres adı",
@@ -193,19 +193,19 @@
       }
     },
     "votingView":{
-      "votingForProposal": "Voting for proposal",
-      "information": "Information",
-      "proposal": "Proposal",
-      "proposalLink": "Proposal link",
-      "description": "Description",
-      "blockStart": "Block Start",
-      "blockEnd": "Block End",
-      "vote": "Vote",
-      "successVoted": "Succesfully voted for proposal",
-      "results": "Results",
-      "thankYou": "Thank you!",
-      "placeholder": "Search: Proposal name"
-    },
+      "votingForProposal": "Teklif için oylama",
+      "information": "Bilgi",
+      "proposal": "Öneri",
+      "proposalLink": "Teklif bağlantısı",
+      "description": "Açıklama",
+      "blockStart": "Blok Başlangıç",
+      "blockEnd": "Blok Sonu",
+      "vote": "Oy",
+      "successVoted": "Teklif için başarıyla oy verildi",
+      "results": "Sonuçlar",
+      "thankYou": "Teşekkürler!",
+      "placeholder": "Arama: Teklif adı"
+  },
     "sendView": {
       "fromAddress": "Gönderen Adresi",
       "recipientAddress": "Alıcı adresi",
@@ -217,10 +217,10 @@
       "messagePrivTx": "Mesaj (sadece özel işlem)",
       "fee": "Ücret",
       "send": "Yolla",
-      "sendMany": "Send many",
-      "sendConfirmation1": "You are going to send",
-      "sendConfirmation2": "to",
-      "sendConfirmation3": "with fee",
+      "sendMany": "Çok gönder",
+      "sendConfirmation1": "Gönderiliyor",
+      "sendConfirmation2": "buraya",
+      "sendConfirmation3": "ücretli",
       "placeholder": {
         "recipientAddress": "Lütfen alıcı cüzdan adresini girin",
         "amount": "Miktar",
@@ -267,7 +267,7 @@
       }
     },
     "loadingView": {
-      "downloadLanguage": "Downloading language pack",
+      "downloadLanguage": "Dil paketi indiriliyor",
       "loadingWallet": "Cüzdan yükleniyor, lütfen bekleyin",
       "selectLinuxVer": "Linux Sürümü'nü seçin",
       "selectOneVer": "Bir versiyon seçin",
